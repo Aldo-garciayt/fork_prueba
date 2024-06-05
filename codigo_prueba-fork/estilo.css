@@ -1,10 +1,25 @@
 body{
     background-color: #456;
 }
-
+h1{
+    color: #999;
+    font-size: 50px;
+    display: grid;
+    place-content: center;
+}
 .contenedor{
     display: grid;
     place-items: center;
     height: 100vh;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: #567;
+    padding: 20px;
 }
 
